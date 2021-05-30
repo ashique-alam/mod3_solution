@@ -1,0 +1,45 @@
+.navbar-brand {
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+#myNavbar {
+	text-align: center;
+}
+
+#heading {
+	text-align: center;
+}
+
+section {
+	background-color: #cecece;
+	font-family: Helvetica;
+	color: black;
+	padding: 10px;
+	margin: 20px;
+}
+
+#sushi, #beef, #chicken{
+	text-align: center;
+	width: 30%;
+	font-family: Georgia,sans-serif;
+	font-weight: bold;
+	font-size: 125%;
+}
+
+p {
+	padding: 10px;
+	margin: 0;
+}
+
+h4 {
+	text-align: center;
+	font-weight: bold;
+}
+
+@media (max-width: 768px) {
+	.col-sm-12 {
+		margin: 20px;
+	}
+}
